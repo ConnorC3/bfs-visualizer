@@ -7,9 +7,9 @@ export const SPEED_MAP = {
 };
 
 export const NODE_COLORS = {
-  unvisited: '#e2e8f0',
-  queued: '#fef08a',
-  visiting: '#60a5fa',
-  visited: '#86efac',
-  start: '#f472b6'
+  unvisited: '#334155',
+  queued: '#fbbf24',
+  visiting: '#3b82f6',
+  visited: '#10b981',
+  start: '#ec4899'
 };

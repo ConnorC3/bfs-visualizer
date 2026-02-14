@@ -11,7 +11,7 @@ export default function BFSControls({
 }) {
   return (
     <div>
-      <h3 style={{ margin: '0 0 12px 0', fontSize: '16px', color: '#1e293b' }}>
+      <h3 style={{ margin: '0 0 12px 0', fontSize: '16px', color: '#f1f5f9' }}>
         BFS Controls
       </h3>
       
@@ -21,7 +21,7 @@ export default function BFSControls({
           display: 'block', 
           marginBottom: '6px', 
           fontSize: '14px', 
-          color: '#475569' 
+          color: '#cbd5e1' 
         }}>
           Start Node:
         </label>
@@ -33,7 +33,9 @@ export default function BFSControls({
             width: '100%',
             padding: '8px',
             borderRadius: '6px',
-            border: '1px solid #cbd5e1',
+            border: '1px solid #475569',
+            backgroundColor: '#0f172a',
+            color: '#e2e8f0',
             fontSize: '14px',
             cursor: mode !== 'CONSTRUCTION' ? 'not-allowed' : 'pointer',
             opacity: mode !== 'CONSTRUCTION' ? 0.5 : 1

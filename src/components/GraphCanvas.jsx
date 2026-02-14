@@ -47,7 +47,8 @@ const GraphCanvas = forwardRef(({
       style={{
         flex: 1,
         position: 'relative',
-        backgroundColor: '#f8fafc',
+        backgroundColor: '#192236',
+        border: '1px solid #334155',
         cursor: mode === 'CONSTRUCTION' ? 'crosshair' : 'default',
         overflow: 'hidden'
       }}
@@ -92,7 +93,7 @@ const GraphCanvas = forwardRef(({
           left: '50%',
           transform: 'translate(-50%, -50%)',
           textAlign: 'center',
-          color: '#64748b',
+          color: '#94a3b8',
           fontSize: '18px'
         }}>
           <div style={{ fontSize: '24px', marginBottom: '8px' }}>Click to add nodes</div>

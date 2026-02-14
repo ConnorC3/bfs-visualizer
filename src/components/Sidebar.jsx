@@ -23,26 +23,26 @@ export default function Sidebar({
 }) {
   return (
     <div style={{
-      width: '320px',
-      backgroundColor: '#ffffff',
-      borderLeft: '1px solid #e2e8f0',
+      width: '380px',
+      backgroundColor: '#0c1220',
+      borderLeft: '1px solid #334155',
       padding: '24px',
       display: 'flex',
       flexDirection: 'column',
       gap: '24px',
       overflowY: 'auto'
     }}>
-      <h1 style={{ margin: 0, fontSize: '24px', color: '#1e293b' }}>
+      <h1 style={{ margin: 0, fontSize: '24px', color: '#f1f5f9' }}>
         BFS Visualizer
       </h1>
       
       {/* Mode indicator */}
       <div style={{
         padding: '12px',
-        backgroundColor: '#f1f5f9',
+        backgroundColor: '#0f172a',
         borderRadius: '8px',
         fontSize: '14px',
-        color: '#475569'
+        color: '#cbd5e1'
       }}>
         <strong>Mode:</strong> {mode.replace('_', ' ')}
       </div>

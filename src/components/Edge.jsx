@@ -11,7 +11,7 @@ export default function Edge({ edge, nodes }) {
       y1={node1.y}
       x2={node2.x}
       y2={node2.y}
-      stroke="#94a3b8"
+      stroke="#64748b"
       strokeWidth="2"
     />
   );

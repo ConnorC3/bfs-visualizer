@@ -1,7 +1,7 @@
 export default function GraphControls({ mode, selectedNodeForEdge, onClearGraph }) {
   return (
     <div>
-      <h3 style={{ margin: '0 0 12px 0', fontSize: '16px', color: '#1e293b' }}>
+      <h3 style={{ margin: '0 0 12px 0', fontSize: '16px', color: '#f1f5f9' }}>
         Graph Controls
       </h3>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -26,10 +26,10 @@ export default function GraphControls({ mode, selectedNodeForEdge, onClearGraph 
         {selectedNodeForEdge !== null && (
           <div style={{
             padding: '8px',
-            backgroundColor: '#fef3c7',
+            backgroundColor: '#422006',
             borderRadius: '6px',
             fontSize: '13px',
-            color: '#92400e'
+            color: '#fcd34d'
           }}>
             Node {selectedNodeForEdge} selected. Click another node to create edge.
           </div>

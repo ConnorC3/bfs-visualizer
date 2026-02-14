@@ -19,11 +19,11 @@ export default function StepDescription({ mode, bfsState }) {
   return (
     <div style={{
       padding: '12px',
-      backgroundColor: '#eff6ff',
+      backgroundColor: '#1e3a8a',
       borderRadius: '8px',
       fontSize: '14px',
-      color: '#1e40af',
-      border: '1px solid #bfdbfe'
+      color: '#bfdbfe',
+      border: '1px solid #3b82f6'
     }}>
       {getStepDescription()}
     </div>
