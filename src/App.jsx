@@ -1,5 +1,5 @@
 import './App.css'
-import BFSVisualizer from './BFSVisualizer'
+import BFSVisualizer from './components/BFSVisualizer'
 
 function App() {
   return <BFSVisualizer />;
