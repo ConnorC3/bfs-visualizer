@@ -1,4 +1,3 @@
-import './App.css'
 import BFSVisualizer from './components/BFSVisualizer'
 
 function App() {

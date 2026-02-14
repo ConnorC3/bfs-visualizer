@@ -27,6 +27,7 @@ export default function Sidebar({
       backgroundColor: '#0c1220',
       borderLeft: '1px solid #334155',
       padding: '24px',
+      paddingBottom: '32px',
       display: 'flex',
       flexDirection: 'column',
       gap: '24px',
